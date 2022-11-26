@@ -71,6 +71,7 @@ POST http://localhost:8000/api/lists/<list_id>/items
 ### Изменить элемент
 ``` bash
 PUT http://localhost:8000/api/items/<item id>
+# Body(json)
 {
     "done": true
 }
